@@ -32,3 +32,8 @@ function draw()
     endShape();
     start += scrollSpeed;
 }
+
+function windowResized()
+{
+    resizeCanvas(windowWidth, windowHeight);
+}
